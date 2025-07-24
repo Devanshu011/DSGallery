@@ -1,0 +1,528 @@
+
+/*      change     */
+   *{
+    margin : 0px;
+    padding : 0px;
+    font-size : "poppins",sans-serif;
+    box-sizing : border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+     background : #e0e9ed; 
+     color : #190f0f;
+    }                                                                   
+    
+    #header{
+        width : 100%;
+        height : 80vh;
+        background-size :cover;
+           display: flex;
+    
+    }
+    #intro{
+        display: flex;
+        align-items: center;
+           width: 50%;
+        flex-direction:column;
+    }
+    
+    #intro2{
+        display: flex;
+           width: 50%;
+        flex-direction: column;
+    }
+    
+    #heythere{
+           width: 100%;
+        padding-left: 20px;
+        margin: 10px;
+    
+    }
+    
+    #newname{
+        width: 100%;
+        padding-left: 20px; 
+        margin: 10px;  
+    }
+    
+    #frontend{
+        width: 100%;
+        padding-left: 20px;
+        margin: 10px;
+    
+    }
+    #quote{
+          border: 1px solid green;  
+        
+       padding-left: 10px;
+        
+    }
+    
+    span{
+        color:goldenrod;
+    }
+    
+    #img{
+        display: flex;
+           align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 50%;
+        
+    }
+    #aboutme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         height: 20vh;
+        width: 100%;
+        background-color: #008CBA;
+    
+    }
+    
+    #content{
+        display: flex;
+           height: 80vh;
+        width: 100%;
+       }
+    #newAchievements{
+        display: flex;
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        background-color: #008CBA;
+        
+    }
+    
+    #newskills{
+        display: flex;
+        /*border: #008CBA solid 1px;*/
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        background-color: #008CBA;
+    }
+    
+    #newcontact{
+        display: flex;
+        /*border: #008CBA solid 1px;*/
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        background-color: #008CBA;
+    }
+    #navbar{
+        display : flex;
+           justify-content : flex-end;
+        flex-wrap : wrap;
+           height: 20vh;
+        width: 100%;
+        
+    }
+    #newlogo{
+        height: 100%;
+        width: 15%;
+        border: 1px solid black;
+    }
+    #link{
+        width: 85%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    #div2{
+        display: flex;
+        width: auto;
+    }
+    
+    #hey{
+        font-size:50px;
+        
+    }
+    #name{
+        font-size:40px;
+    }
+    #speech{
+        font-size: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        life-style: none;
+        margin: 10px 20px;
+        
+    }
+    nav ul li a{
+        color : rgb(44, 38, 38);
+        decoration : none;
+        font-size : 18px;
+        position : relative;
+        text-decoration : none;
+    }
+    nav ul li a::after{
+        content: '';
+        width:0;
+        height:3px;
+        background: #ff004f;
+        position : absolute;
+        left :0;
+        bottom: -6px;
+        transition :0.5s;
+    }
+    nav ul li a:hover::after{
+        width : 100%;
+    }
+    .header-text{
+        margin-top : 20%;
+        font-size : 30px;
+    
+    }
+    .header-text h1{
+        font-size : 60px;
+        margin-top : 20px;
+    }
+    .header-text h1 span{
+        color :goldenrod; 
+    }
+    
+    /*--------------------About Me---------------*/
+    #about{
+        padding : 80px;
+        color :ababab;
+    }
+    .row{
+        display : flex;
+        justify-content : space-between;
+        flex-wrap : wrap;
+    }
+    .about-col-1{
+        width : 500px;
+        height: 600px;
+        border-radius :40px;
+        border:1px solid red; 
+    
+    }
+    .about-col-1 img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    #education{
+        display :grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap : 40px;
+        margin-top : 50px;
+        border: 1px solid  #008CBA;
+    }
+    
+    
+    .photo{
+    
+        max-width: 50vh; 
+        max-height: 60vh; 
+        height: 100vh;
+        width: 70%;
+        border-radius: 40%;  
+    }
+    
+    .photo2{
+     
+        height: 100vh;
+        width: 60%;
+        border-radius: 10%;  
+    }
+    
+    
+    .about-col-2{
+        width: 500px;
+        height: 600px;
+        border:1px solid orange;
+        float: right;
+        position:relative;
+         right:20%;
+         down:100px;  
+    }
+    
+    
+    .sub-title{
+    font-size : 60px;
+    font-weight : 600;
+    color : white;
+    }
+    .tab-titles{
+    
+    display: flex;
+    margin : 20px 0 40px;
+    }
+    .tab-links{
+        margin-right :50px;
+        font-size :18px;
+        font-weight :500;
+        cursor :pointer;
+        position : relative;
+    }
+    .tab-links::after{
+        content : '';
+        width :0;
+        height :3px;
+        background :#ff004f;
+        position :absolute;
+        left :0;
+        bottom : -8px;
+        transition :0.5px;
+    
+    }
+    .tab-links.active-link::after{
+        width : 50%;
+    }
+    .tab-contents ul li{
+        list-style : none;
+        margin : 10px 0;
+    
+    }
+    .tab-contents ul li span{
+        color :#ff004f;
+        font-size : 14px;
+    }
+    .tab-contents{
+        display : none;
+    }
+    .tab-contents.active-tab{
+        display : block;
+        
+    }
+    /*-----------------Achievements------------*/
+    #Achievements{
+        padding : 30px 0;
+    }
+    
+    .img{
+    
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    
+    .Achievements-list{
+        display :grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap : 40px;
+        margin-top : 50px;
+    
+      
+    }
+    
+    .Achievements img{
+        height:250px;
+        width:320px;
+        border-radius: 60px;
+    }
+    
+    .Achievements-list div{
+        background : #262626;
+        padding : 40px;
+        font-size :13px;
+        font-weight :300;
+        border-radius :100px;
+        transition : background 0.5s, transform 0.5s;
+        
+    }
+    .Achievements-list div:hover{
+        background :#ff004f;
+        transform : translatey(-10px);
+    }
+    --------------Skills-------------
+    
+    .Skills{
+        padding:50px 0;
+        margin: 30px;
+        padding:30px;
+        height: 300px;
+        width: 200px;
+        border-radius:50% ;
+    }
+    .Skills img{
+        border-radius:50%;
+        width: 250px;
+        height: 300px;
+        vertical-align: auto;
+    }
+    
+    .container{
+        position: relative;
+      width: 50%;
+    
+    }
+    .Skills {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #008CBA;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: .5s ease;
+    }
+    .container:hover .overlay {
+      width: 100%;
+    }
+    
+    .text {
+      white-space: nowrap; 
+      color: white;
+      font-size: smaller;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+    
+    {
+        margin: 30px;
+        padding: 30px;
+    }
+    
+    
+    /*contact*/
+
+    .contact-left{
+        flex-basis : 35%;
+    }
+    .contact-right{
+        flex-basis : 60%;
+    
+        }
+    .contact-left p{
+        margin-top :30px;
+    }
+
+
+    #newcontact{
+        position: relative;
+        
+      }
+      
+      .box{
+        
+        width: 300px;
+        height:70px;
+        background: rgb(237, 234, 234);
+        outline:8px ridge rgba(220, 50, 50, 0.6);
+        
+        border-radius: 2rem;
+        text-align: center;
+      }
+      
+      a{
+        color:rgba(66, 51, 51, 0.79); 
+      }
+      
+      
+      .box:hover{
+        
+      transform: translateY(10px);
+      }
+      
+      
+      
+      .contact-left{
+        flex-basis : 35%;
+        position: relative;
+        left: 100px;
+      }
+      
+      
+      
+      .contact-right{
+        flex-basis : 60%;
+      
+        }
+      
+       
+      .social-icons{
+      margin-top : 30px;
+      }
+      
+      .social-icons a{
+       text-decoration: none;
+       font-size: 30px;
+       margin-right: 15px;
+       color: #ababab;
+       display: inline-block;
+       transition: transform 0.5s;
+      }
+      
+      .social-icons a:hover{
+        color : #008CBA;
+        transform: translateY(-5px);
+      }
+      .btn.btn2{
+        display : inline-block;
+        background : red;;
+        text-decoration-line: none;
+        color :wheat;
+        
+      }
+      .contact-right form{
+        width : 20em;
+        
+        
+      }
+      form input , form textarea{
+        width : 100%;
+        border : 0;
+        outline : 8px ridge rgba(220, 50, 50, 0.6);
+        border-radius: 2rem;
+        background : rgb(237, 234, 234);
+        padding : 1em;
+        margin : 15px 0;
+        color : cadetblue;
+        font-size : 18px;
+        border-radius :  30px;
+      }
+      form .btn2{
+        padding :14px 60px;
+        font-size :18px;
+        margin-top :20px;
+        cursor :pointer;
+      
+      
+        
+      }
+      .copyright{
+        width :100%;
+        text-align : center;
+        padding : 25px 0;
+        background : #262626;
+        font-weight : 300;
+        margin-top:20px;
+      
+        color : gold;
+        
+      }
+      
+      .btn{
+        margin: 20px;
+        padding: 20px;
+        
+      }
+      
+      
+    
+        
